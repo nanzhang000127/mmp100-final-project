@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    padding: 5em;
+    background-color: #0f0f23; /* Dark background for a deep-space feel */
+    color: #c0c0e0; /* Soft text color for contrast */
+    font-family: 'Orbitron', sans-serif; /* Futuristic font */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #8f00ff; /* Neon purple */
+    text-shadow: 0 0 10px #8f00ff; /* Neon glow effect */
+}
+
+p {
+    width: 750px;
+    margin: 0 auto; /* Center the paragraph */
+    color: #00ff00; /* Bright neon green */
+}
+
+/* Enhanced media rule with a cyberpunk touch */
+img, video, audio, canvas, p {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    border: 1px solid #00ff00; /* Neon border */
+    box-shadow: 0 0 10px #00ff00; /* Neon glow effect */
+}
+
+.credits {
+    font-size: 0.5em;
+    color: rgb(200,200,200);
+    text-shadow: 0 0 5px #00ff00; /* Subtle neon glow effect */
+}
